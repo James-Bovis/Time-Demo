@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7935caea-7ece-43fb-acb4-01c9ecfa5a05/deploy-status)](https://app.netlify.com/sites/time-demo/deploys)
+
 # Time Demo
 This small project was built as a small personal project for myself to get to
 know the [`moment`](https://momentjs.com/) API and to also take what I've
