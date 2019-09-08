@@ -8,8 +8,6 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-gradient": "^1.0.2",
-    "react-pose": "^4.0.8",
-    "react-pose-text": "^3.1.0",
     "react-scripts": "3.0.0",
     "sass-lint": "^1.13.1"
   },
