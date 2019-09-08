@@ -8,7 +8,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-gradient": "^1.0.2",
-    "react-scripts": "3.0.0",
+    "react-scripts": "3.1.1",
     "sass-lint": "^1.13.1"
   },
   "scripts": {
