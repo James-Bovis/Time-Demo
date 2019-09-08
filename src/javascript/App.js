@@ -8,7 +8,7 @@ const gradients = [
   ['#2C5364', '#1E5D8A']
 ]
 
-function App () {
+const App = () => {
   return (
       <Gradient
         gradients={gradients}
