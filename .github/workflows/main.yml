@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Setup Node.js for use with actions
+        uses: actions/setup-node@v1.1.0
+        with:
+          node-version: '10.x'
+      - name: npm install, and yarn test
+        run: |
+          npm install
+          yarn test --watchAll=false
