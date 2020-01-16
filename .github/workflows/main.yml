@@ -7,11 +7,12 @@ on:
 
 jobs:
   build:
-
+    name: Yarn Test
     runs-on: ubuntu-latest
-
     steps:
-    - name: Add Yarn
-    - uses: comchangs/action-yarn@v0.1-beta
-    - name: Run JS Tests
-      run: yarn test
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install # will run `yarn install` command
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: test # will run `yarn test` command
