@@ -19,4 +19,4 @@ jobs:
       - name: npm install, and yarn test
         run: |
           npm install
-          yarn test
+          yarn test --watchAll=false
