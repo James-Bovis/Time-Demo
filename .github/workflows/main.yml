@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Add Yarn
+    - uses: comchangs/action-yarn@v0.1-beta
+    - name: Run JS Tests
+      run: yarn test
