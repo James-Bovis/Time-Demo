@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Setup Node.js for use with actions
-      - uses: actions/setup-node@v1.1.0
+        uses: actions/setup-node@v1.1.0
         with:
           node-version: '10.x'
       - name: npm install, and yarn test
